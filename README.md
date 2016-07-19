@@ -21,5 +21,10 @@ from the command line:
 
     python update_ip_addr_dns.py [X-Cisco-Meraki-API-Key] [DNS-O-Matic-USER]:[DNS-O-Matic-PASS] [device_type1, device_type2]
 
+For example, when I try updating the IP Addresses of my MR devices on all of my
+networks, I run the following command (the password and API key are fake):
+
+    python update_ip_addr_dns.py 8943qjkewasdf98q34 shubhi.jain@meraki.com:mypassword MR
+
 And voila! You will now have updated your IP Addresses for your specific devices
 on OpenDNS.
