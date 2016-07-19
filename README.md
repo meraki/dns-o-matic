@@ -17,9 +17,9 @@ allows us to solve this issue in an easy, automated fashion.
 ## How to run
 In order to update the IP Addresses of your Meraki devices on OpenDNS, you will
 run the above script from your command line.  
-  
+
 Install the modules specified in requirements.txt using [pip](https://pip.pypa.io/en/stable/installing/), a package manager
-for Python.
+for [Python](https://www.python.org/).
 
     pip install -r requirements.txt
 
